@@ -8,11 +8,16 @@
 }
 body{
     height: 100vh;
+  
+    
+}
+.header_background{
     background-image: url('./img/pic.svg');
     background-repeat: no-repeat;
     background-position: 100% 120px;
-    
+
 }
+
 .button {
 background-color: #5222D0;
 text-align: center;
@@ -44,9 +49,7 @@ font-weight: 400;}
     content: url('./img/buy.svg');
     padding-left: 16px;
 }
-.container_size{
-    height: 75%;
-}
+
 .main-title {
     font-family: 'Intro';
     font-style: normal;
@@ -77,10 +80,25 @@ font-weight: 400;}
     line-height: 160%;
 
 }
-.nav-link_color {
+.nav-link_color-blue {
     color: #5222D0;
 }
-.nav-link {
+.nav-link_color-black {
+    color: #000000;
+}
+.featers__title{
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 120%;
+}
+.feauters__text {
+    font-family: 'Roboto Slab',serif;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 160%;
 }
 .active {
 }
